@@ -1,0 +1,37 @@
+body{
+    background-color: var(--primery-white-color);
+}
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color:var(--acent-color: green);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--title-color);
+
+}
+.site-nav .link.current{
+    color: red;
+}
+.section-title{
+    color: var(--title-color);
+
+}
+.specialists{
+    color: var(--title-color);
+}
+auth-nav body {
+  font-family: "Roboto", sans-serif;
+}
+
+ :root {
+  --title-color: 212121;
+  --secondary-bacground: E5E5E5;
+  --main-text-color: 757575;
+  --acent-color: green ;
+} */
+212121
