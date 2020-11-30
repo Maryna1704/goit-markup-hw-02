@@ -211,7 +211,7 @@ margin-bottom: 50px;
 .main-title {
   margin-bottom: 30px;
   margin-left: auto;
-  margin-right:a ;
+  margin-right: auto ;
   width: 696px;
   text-transform: uppercase;
   font-weight: 700px;
@@ -235,6 +235,26 @@ margin-bottom: 50px;
   --ptimary-text-color: white;
   --main-text-color: #000;
   --acent-color: #18a0fb;
+}
+.page-footer{
+  padding-top: 60px;
+   padding-bottom: 60px;
+  background-color: #2f303a;
+}
+.contact-footer{
+  margin-top: 20px;
+  line-height: 1.71;
+}
+..contact-footer .item + .item{
+  margin-top: 9px;
+}
+.address{ 
+  color: var(--ptimary-text-color);
+  
+}
+.contct-link{
+  color: #585555;
+  text-decoration: none;
 }
 /*
 .button {
